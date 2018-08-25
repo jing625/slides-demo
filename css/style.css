@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 850px;
+    margin: auto;
+}
+
+.window {
+    width: 808px;
+    height: 606px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    transition: all 1s;
+    transform: translateX(-808px);
+}
+
+.images>img {
+    width: 100%;
+}
+
+
